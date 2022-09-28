@@ -1,0 +1,16 @@
+.allShirtsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+.shirtCard{
+    top: 20vh;
+    height: 40vh;
+    width: 20vw;
+    border: 1px solid #E1F2F5;
+    background: cadetblue;
+    border-radius: 1em;
+    display: grid;
+
+}

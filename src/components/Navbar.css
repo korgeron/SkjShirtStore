@@ -1,0 +1,46 @@
+.mainNavbar{
+    background: #11145E;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainNavbar > ul{
+    display: flex;
+    margin-right: 3em;
+
+}
+
+.mainNavbar > ul > li{
+    margin-right: 2em;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.mainNavbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+    transition: all .7s;
+}
+
+.mainNavbar > ul > li > a:focus,
+.mainNavbar > ul > li > a:hover{
+    color: indianred;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.companyLogo > a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3em;
+    font-size: 30px;
+}
+
+.active{
+    background: orange;
+}
